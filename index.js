@@ -61,7 +61,12 @@
 //     } 
 // }
 
-
+// function  table (num1){
+  //     for(let a = 1;a<=10;a++){
+  //       console.log(num1 + "*" +a  + "=" +);
+  //     }
+  // }
+  // table(2)
 // for(let m = 1;m<=10;m++){
 //   if(m==1){
 //     continue
@@ -188,11 +193,57 @@
 // }
 
  
-for(let a = 5;a>=1;a--){
-  let space = ""
-document.write("<br>")
-  for(let b = a;b>=1;b--){
-    document.write("*")
+// for(let a = 5;a>=1;a--){
+//   let space = ""
+// document.write("<br>")
+//   for(let b = a;b>=1;b--){
+//     document.write("*") 
 
-  }
-}
+//   }
+// }
+
+
+
+// 1 function
+// function odev (num1){
+//   if(num1 %2==0){
+//     console.log("even");
+//   }else{
+//     console.log("odd");
+//   }
+// }
+// odev(33)
+
+
+//2
+// function  table (num1){
+//     for(let a = 1;a<=10;a++){
+//       console.log(num1 + "*" +a  + "=" +);
+//     }
+// }
+// table(2)
+
+
+
+// let name = prompt("what is your name")
+// let age = prompt("what is your age")
+// let address = prompt("what is your address")
+// let mobile = prompt("what is your mobile number")
+// // console.log("name" + name + "\n" + "age" +age +"\n" + "address" + address +"\n" + "mobile"  + mobile)
+// console.log(`name: ${name} 
+// age:${age}
+// address:${address}
+// mobile:${mobile}`);
+
+// let name = prompt("what is your name")
+// let birthyear = Number(prompt("what is your birth year"))
+// let sisbro = Number(prompt("do you have how many sister and brother "))
+// let hindi = Number(prompt("Enter your marks of hindi subject in 10th class"))
+// let math = Number(prompt("Enter your marks of math subject in 10th class"))
+// let Science = Number(prompt("Enter your marks of science subject in 10th class"))
+// let ageclu = 2023 - birthyear
+// let totelmarks = hindi + math + Science
+
+// console.log(`my name is ${name}. i was bron in ${birthyear} and my current age is ${2023-birthyear} years. I have ${sisbro} brothers and sister. My totel marks in 10th class were ${hindi+math+Science}`);
+
+// console.log("my name is" + name + ". I was bron in "+birthyear + "and my current age is " + ageclu + "year . I have " + sisbro + "brothers and sister. My totel marks in 10th class were " +  totelmarks  );
