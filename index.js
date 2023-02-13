@@ -247,3 +247,45 @@
 // console.log(`my name is ${name}. i was bron in ${birthyear} and my current age is ${2023-birthyear} years. I have ${sisbro} brothers and sister. My totel marks in 10th class were ${hindi+math+Science}`);
 
 // console.log("my name is" + name + ". I was bron in "+birthyear + "and my current age is " + ageclu + "year . I have " + sisbro + "brothers and sister. My totel marks in 10th class were " +  totelmarks  );
+
+
+
+//  
+function max(num, num2, num3) {
+  let max = num;
+  if (num2 > max) {
+    max = num2;
+  }
+  if (num3 > max) {
+    max = num3;
+  }
+  console.log(max);
+}
+max(490, 130, 770);
+
+
+const nummax = function (num1, num2, num3) {
+  let max = num1;
+  if (num2 > max) {
+    max = num2;
+  }
+  if (num3 > max) {
+    max = num3;
+  }
+  console.log(max);
+}
+nummax(400, 1330, 7170);
+
+
+const nummax2 =  (num1, num2, num3)=> {
+  let max = num1;
+  if (num2 > max) {
+    max = num2;
+  }
+  if (num3 > max) {
+    max = num3;
+  }
+  console.log(max);
+}
+nummax2(400, 1130, 870);
+
