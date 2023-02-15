@@ -32,110 +32,102 @@
 //   }
 // 1
 
-
 // for(let i = 1;i<=10;i++){
 //     document.write("<br>");
 //    for(j=1;j<=i;j++){
 //     if(j<=5){
-//         continue  
+//         continue
 //     }
 //     document.write("*");
 
-//    } 
+//    }
 // }
 
 // let a = 1
 // let b = 5
-// for(let a = 1;a<= 10;a++){
-//       document.write("<br>")
-//     if(a<=5){
-//     for(let b = 1; b<= a;b++){
-//      document.write("*");
-//     }
-//     continue
-//      }
-//       b-- ;
-//      for(let c = b ;c>=1;c--){
-//         document.write("*")
-     
-//     } 
-// }
+// // for(let a = 1;a<= 10;a++){
+// //       document.write("<br>")
+// //     if(a<=5){
+// //     for(let b = 1; b<= a;b++){
+// //      document.write("*");
+// //     }
+// //     continue
+// //      }
+// //       b-- ;
+// //      for(let c = b ;c>=1;c--){
+// //         document.write("*")
 
-// function  table (num1){
-  //     for(let a = 1;a<=10;a++){
-  //       console.log(num1 + "*" +a  + "=" +);
-  //     }
-  // }
-  // table(2)
-// for(let m = 1;m<=10;m++){
-//   if(m==1){
-//     continue
-//   }
-//   if(m==2)
-//   {continue}
-//   if(m==4){
-//     break
-//   }
-//   console.log(m);
-// }
+// //     }
+// // }
 
+// // function  table (num1){
+//   //     for(let a = 1;a<=10;a++){
+//   //       console.log(num1 + "*" +a  + "=" +);
+//   //     }
+//   // }
+//   // table(2)
+// // for(let m = 1;m<=10;m++){
+// //   if(m==1){
+// //     continue
+// //   }
+// //   if(m==2)
+// //   {continue}
+// //   if(m==4){
+// //     break
+// //   }
+// //   console.log(m);
+// // }
 
+// // rigt pramod
 
-// rigt pramod
-           
-// let n = 5;
-// let string = "";
-// // External loop
-// for (let i = 1; i <= n; i++) {
-//   // printing spaces
-//   for (let j = 1; j <= n - i; j++) {
-//     string += " ";
-//   }
-//   // printing star
-//   for (let k = 0; k < 2 * i - 1; k++) {
-//     string += "*";
-//   }
-//   string += "\n";
-// }
-// console.log(string);
+// // let n = 5;
+// // let string = "";
+// // // External loop
+// // for (let i = 1; i <= n; i++) {
+// //   // printing spaces
+// //   for (let j = 1; j <= n - i; j++) {
+// //     string += " ";
+// //   }
+// //   // printing star
+// //   for (let k = 0; k < 2 * i - 1; k++) {
+// //     string += "*";
+// //   }
+// //   string += "\n";
+// // }
+// // console.log(string);
 
-// for(let b = 1;b<=5;b++ ){
-      
-//     for(let c = 1;c<=5;c++){
-//         console.log("*");
-//     }
-// }
+// // for(let b = 1;b<=5;b++ ){
 
+// //     for(let c = 1;c<=5;c++){
+// //         console.log("*");
+// //     }
+// // }
 
+// // function
+// //  const sum = function  (a ,b ,c ,d){
+// //   console.log(a + b + c + d);
+// // }
+// // sum(1,2,3,4)
 
-// function
-//  const sum = function  (a ,b ,c ,d){
-//   console.log(a + b + c + d);
-// }
-// sum(1,2,3,4)
+// // function ev (a){
+// //   if(a%2==0){
+// //     console.log("even");
+// //   }else{
+// //     console.log("odd");
+// //   }
+// // }
+// // ev(12)
 
+// // const od = function (a){
+// //   if(a%2==0){
+// //     console.log("even");
+// //   }else{
+// //     console.log("odd");
+// //   }
 
-// function ev (a){
-//   if(a%2==0){
-//     console.log("even");
-//   }else{
-//     console.log("odd");
-//   }
-// }
-// ev(12)
+// // }
+// // od(33)
 
-
-// const od = function (a){
-//   if(a%2==0){
-//     console.log("even");
-//   }else{
-//     console.log("odd");
-//   }
-
-// }
-// od(33)
-
- 
 //  let mno  =function (num1,num2){
 
 //   if(num1%2==1 && num1 < 100){
@@ -145,26 +137,27 @@
 //   }else{
 //     return ("hello")
 //   }
-// }--------------  &nbsp --------- 
-// // let ans = mno(31,1002)
-// console.log(mno(31,200000 ));
 
-    //    *
+// }
+// let ans = mno(31,1002)
+// console.log(mno(31,200000 ));
+// -------------  &nbsp ---------
+
+//        *
 //       * *
 //      * * *
 //     * * * *
 //    * * * * *
-// let a = 5
-// for(let i = 1;i<=5;i++){
-//       document.write("<br>")
-//      for(let j = 5-i ;j>=1;j--){
-//       document.write("&nbsp")
-//      }
-//      a--
-//      for(let k = 5-a ;k>=1;k--){
-//       document.write("* ");
- 
-//       }
+// let a = 5;
+// for (let i = 1; i <= 5; i++) {
+//   document.write("<br>");
+//   for (let j = 5 - i; j >= 1; j--) {
+//     document.write("&nbsp");
+//   }
+//   a--;
+//   for (let k = 5 - a; k >= 1; k--) {
+//     document.write("* ");
+//   }
 // }
 // ---------------------------------------------------------------------------------
 // for(let i = 1; i<=5; i++){
@@ -183,7 +176,7 @@
 //     let space = ""
 //     for(let u = 1;u<=5-s;u++){
 //       space =space + " "
-      
+
 //     }
 //     document.write(space)
 //     for(let j = 1; j <= s; j++){
@@ -192,17 +185,14 @@
 //         console.log(space)
 // }
 
- 
 // for(let a = 5;a>=1;a--){
 //   let space = ""
 // document.write("<br>")
 //   for(let b = a;b>=1;b--){
-//     document.write("*") 
+//     document.write("*")
 
 //   }
 // }
-
-
 
 // 1 function
 // function odev (num1){
@@ -214,7 +204,6 @@
 // }
 // odev(33)
 
-
 //2
 // function  table (num1){
 //     for(let a = 1;a<=10;a++){
@@ -223,14 +212,12 @@
 // }
 // table(2)
 
-
-
 // let name = prompt("what is your name")
 // let age = prompt("what is your age")
 // let address = prompt("what is your address")
 // let mobile = prompt("what is your mobile number")
 // // console.log("name" + name + "\n" + "age" +age +"\n" + "address" + address +"\n" + "mobile"  + mobile)
-// console.log(`name: ${name} 
+// console.log(`name: ${name}
 // age:${age}
 // address:${address}
 // mobile:${mobile}`);
@@ -248,44 +235,39 @@
 
 // console.log("my name is" + name + ". I was bron in "+birthyear + "and my current age is " + ageclu + "year . I have " + sisbro + "brothers and sister. My totel marks in 10th class were " +  totelmarks  );
 
+// //
+// function max(num, num2, num3) {
+//   let max = num;
+//   if (num2 > max) {
+//     max = num2;
+//   }
+//   if (num3 > max) {
+//     max = num3;
+//   }
+//   console.log(max);
+// }
+// max(490, 130, 770);
 
+// const nummax = function (num1, num2, num3) {
+//   let max = num1;
+//   if (num2 > max) {
+//     max = num2;
+//   }
+//   if (num3 > max) {
+//     max = num3;
+//   }
+//   console.log(max);
+// }
+// nummax(400, 1330, 7170);
 
-//  
-function max(num, num2, num3) {
-  let max = num;
-  if (num2 > max) {
-    max = num2;
-  }
-  if (num3 > max) {
-    max = num3;
-  }
-  console.log(max);
-}
-max(490, 130, 770);
-
-
-const nummax = function (num1, num2, num3) {
-  let max = num1;
-  if (num2 > max) {
-    max = num2;
-  }
-  if (num3 > max) {
-    max = num3;
-  }
-  console.log(max);
-}
-nummax(400, 1330, 7170);
-
-
-const nummax2 =  (num1, num2, num3)=> {
-  let max = num1;
-  if (num2 > max) {
-    max = num2;
-  }
-  if (num3 > max) {
-    max = num3;
-  }
-  console.log(max);
-}
-nummax2(400, 1130, 870);
-
+// const nummax2 =  (num1, num2, num3)=> {
+//   let max = num1;
+//   if (num2 > max) {
+//     max = num2;
+//   }
+//   if (num3 > max) {
+//     max = num3;
+//   }
+//   console.log(max);
+// }
+// nummax2(400, 1130, 870);
