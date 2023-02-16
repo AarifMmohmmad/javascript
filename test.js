@@ -30,23 +30,23 @@
 // $
 
 //2
-for (let i = 7; i >= 1; i--) {
-    let a = "";
-    for (let j = 1; j <= i; j++) {
-      if (j % 3 === 1  ) {
-        a += "$";
-      } else {
-        a += "#";
-      }
-    }
-    console.log(a);
-  }
+// for (let i = 7; i >= 1; i--) {
+//     let a = "";
+//     for (let j = 1; j <= i; j++) {
+//       if (j % 3 === 1  ) {
+//         a += "$";
+//       } else {
+//         a += "#";
+//       }
+//     }
+//     console.log(a);
+//   }
 
 
 // Question 3 (Marks:5)
 // Ask the user question "How many times do you want to print Series". Then print below series. For example below series will print if user enteres 5
 
-// 2, 6, 30, 260, 3130 Find the pattern for above series and print accordingly. If the user enters 10 then we will print the same series numbers till 10 times.
+// 2, 6,30 , 260, 3130 Find the pattern for above series and print accordingly. If the user enters 10 then we will print the same series numbers till 10 times.
 
 
 // for(let m = )
@@ -138,16 +138,16 @@ for (let i = 7; i >= 1; i--) {
 // Question 8 (Marks:10)
 // Write a JavaScript program to check if out of 4 numbers any two numbers are same or not. If yes then print Yes else print No.
 
-// let a = 2
-// let b = 2
-// let c = 3
-// let d = 4
+let a = 2
+let b = 3
+let c = 4
+let d = 4
 
-// if(((a==b || a==c || a== d) &&( b== a || b== c  || b==d) ) || ((c==a || c==b || c== d ) && (d==a || d==b || d==c)  )){
-//     console.log("yes");
-// }else{
-//     console.log(a,b,c,d);
-// }
+if(a==b || a==c || a== d || c==d || d== b||c==b){
+    console.log("yes");
+}else{
+    console.log(a,b,c,d);
+}
 
 // Question 9 (Marks:15)
 // Write a program to check if a number is palindrome or not. It means 141 and 12221 both are examples of palindrome number. If number is palindrome then print yes else print no
@@ -172,3 +172,6 @@ for (let i = 7; i >= 1; i--) {
 // }else{
 //     console.log("no");
 // }
+
+
+ 
