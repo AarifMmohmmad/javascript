@@ -1,55 +1,61 @@
 // Question 1 (Marks:20)
 
-// Create Bill Calculator
-
-// Ask below Questions
-
-// How many french fries (60rs per piece) do you want to order ?
-// How many burgers (50rs per piece) do you want to order ?
-// How many plates of chowmin (100rs per plate) do you want to order?
-// How many plates of Manchurian (80rs per plate) do you want to order?
-// How many Cokes (50 per piece) do you want to order ?
-// Use can enter any number of quantities. Calculate the bill based on the quantities entered and item prices. If user enteres 0 or negative value then consider item count as 0.
-
-// let french = Number(prompt("How many french fries (60rs per piece) do you want to order ?"))
-// let burgers = Number(prompt("How many burgers (50rs per piece) do you want to order ?"))
+// let french = Number(prompt( "how many french (60rs per piece do you want to order ?"))
+// let burgers = Number(prompt("hoe many bergers(50 per plate"))
 // let chowmin = Number(prompt("How many plates of chowmin (100rs per plate) do you want to order?"))
 // let Manchurian = Number(prompt("How many plates of Manchurian (80rs per plate) do you want to order?"))
 // let Cokes = Number(prompt("How many Cokes (50 per piece) do you want to order ?"))
 
 // console.log(60*french + 50 *burgers + 100 * chowmin + 80 *Manchurian + 50 * Cokes);
 
-
-
-// Question 2 (Marks:10)
-// Print below Pattern
+// Question 2 (Marks:10) 
+// Print below Pattern 
 // $##$##$
 // $##$##
 // $##$
 // $##
 // $
 
-//2
-// for (let i = 7; i >= 1; i--) {
-//     let a = "";
-//     for (let j = 1; j <= i; j++) {
-//       if (j % 3 === 1  ) {
-//         a += "$";
-//       } else {
-//         a += "#";
-//       }
+// 2
+// for (let i = 5; i >= 1; i--) {
+//     document.write("<br>")
+//     for(j=1;j<=i;j++){
+//         if(j== 1 || j==3 || j== 5){
+//     document.write("&")
+//         }
+//         document.write("#") 
 //     }
-//     console.log(a);
+
 //   }
 
 
+//   question 2 
+// for(let m=5;m>=1;m--){
+//     let a = ""
+// for (let j = 1; j <= m; j++) {
+//     if (j % 3 === 1  ) {
+//       a += "$";
+//     } else {
+//       a += "#";
+//     }
+ 
+//   }  
+//   console.log(a)
+// } 
+  
 // Question 3 (Marks:5)
 // Ask the user question "How many times do you want to print Series". Then print below series. For example below series will print if user enteres 5
+// Create Bill Calculator
+
+// Ask below Questions
 
 // 2, 6,30 , 260, 3130 Find the pattern for above series and print accordingly. If the user enters 10 then we will print the same series numbers till 10 times.
 
+// let manytime = Number(prompt("How many times do you want to print Series"))
+// for(let i = 1; i<= 5;i++){
+//     console.log((i**i)+i);
+//  }
 
-// for(let m = )
 
 
 
@@ -138,29 +144,23 @@
 // Question 8 (Marks:10)
 // Write a JavaScript program to check if out of 4 numbers any two numbers are same or not. If yes then print Yes else print No.
 
-let a = 2
-let b = 3
-let c = 4
-let d = 4
+// let a = 2
+// let b = 3
+// let c = 4
+// let d = 4
 
-if(a==b || a==c || a== d || c==d || d== b||c==b){
-    console.log("yes");
-}else{
-    console.log(a,b,c,d);
-}
+// if(a==b || a==c || a== d || c==d || d== b||c==b){
+//     console.log("yes");
+// }else{
+//     console.log(a,b,c,d);
+// }
 
 // Question 9 (Marks:15)
 // Write a program to check if a number is palindrome or not. It means 141 and 12221 both are examples of palindrome number. If number is palindrome then print yes else print no
 
 // let palindromes = 123
-
-// for (var i = palindromes.length - 1; i >= 0; i--){
-//      reversedString = reversedString + str[i];
-//      console.log(i);
-//      }
-
-
-
+//console.log(repeat(palindromes));
+ 
 // Question 10 (Marks:5)
 // Take a String and check its length. If string length is greater than 10 then print from 1 to length of the string. else print No
 // let takestring = "aaaaayyyyyyyya"
@@ -173,5 +173,35 @@ if(a==b || a==c || a== d || c==d || d== b||c==b){
 //     console.log("no");
 // }
 
+// let user = "huh"
+// switch(user%2===0){
+//     case true: 
+//     console.log("Even")
+//     break;
+//     case false:
+//         console.log("odd")
+//         break;
+//     case 100: 
+//     console.log(100)
+//     break;
+//     default :
+//     console.log(1000000)
+// } 
 
- 
+// let ti = new Date()
+// console.log(ti);
+
+let user = "3234"
+let i="";
+
+for (let j =user.length; j>0; j--)
+{
+      i=i+user.charAt(j-1);
+}
+if(i==user){
+    console.log("palindrome");
+}else{
+    console.log("non plaindrome");
+}
+
+

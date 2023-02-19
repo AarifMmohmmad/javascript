@@ -271,3 +271,57 @@
 //   console.log(max);
 // }
 // nummax2(400, 1130, 870);
+
+
+// let aa = "wecodbbfAe accedmy"
+// let ans = aa.toLowerCase()
+// console.log(ans);
+// console.log( aa.toLowerCase());
+
+//  1
+// let mno = " wrygw  "
+// let m = mno.length
+// let x = mno.trim(" ")
+// let y = x.length
+// console.log(y);
+//  let z =mno.trimStart()
+// console.log(z.length);
+// let w = mno.trimEnd()
+// console.log(w.length);
+// 2
+// let antst = "abcd"
+// let up = "ABCD"
+
+// let change = antst.toUpperCase()
+// console.log(change == up);
+// //3
+// console.log("aarif".concat("mohammad , aaaaa,bcd"));
+// let as = "aajkjk s ijk  kmksj ik m "
+// console.log(as.length);
+
+// for(let a = 5;a>=1;a--){
+//  console.log(("$".repeat(a)).concat("#".repeat(a)));
+// }
+
+
+// let mno = "my name is aarif mohammad"
+// console.log(mno.indexOf("aarif"));
+// console.log(mno.slice(11));
+
+
+let a  = "uwfu sjsguygs jdbhg"
+let s = prompt("what are search")
+let sea = a.includes(s)
+
+if(sea){
+    console.log("yes");
+    console.log(a.indexOf(s));
+    console.log(a.lastIndexOf(s));
+}else{
+    console.log("no");
+}
+
+
+
+let str = "hello my name is wecode academy";
+console.log();
