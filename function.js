@@ -129,26 +129,110 @@
 //   },how*what*1000);
 
 
-function sum(fn1, fn2, fn3, fn4) {
-    fn1(fn3, fn2);
-    fn2(fn3, fn4);
-    fn3();
-    fn4();
-    return fn4();
-  }
-  let ask = sum(
-    function (fn2, fn3) {
-      fn2();
-      fn3();
-    },
-    function (fn3, fn4) {
-      console.log("hello");
-    },
-    function () {
-      console.log("wecode");
-    },
-    function () {
-      console.log("khan");
-    }
-  );
-  console.log(ask);
+// function sum(fn1, fn2, fn3, fn4) {
+//     fn1(fn3, fn2);
+//     fn2(fn3, fn4);
+//     fn3();
+//     fn4();
+//     return fn4();
+//   }
+//   let ask = sum(
+//     function (fn2, fn3) {
+//       fn2();
+//       fn3();
+//     },
+//     function (fn3, fn4) {
+//       console.log("hello");
+//     },
+//     function () {
+//       console.log("wecode");
+//     },
+//     function () {
+//       console.log("khan");
+//     }
+//   );
+//   console.log(ask);
+
+
+// function test(fn1, fn2, fn3, a) {
+//   fn1(a, fn3, fn2);
+
+//   return function (x, y, z) {
+//     return x + y + z;
+//   };
+// }
+
+// let ans = test(
+//   function (a, fn3, fn2) {
+//     fn3(a);
+//     fn2(a);
+//   },
+//   function (a) {
+//     console.log(a * 5);
+//   },
+//   function (a) {
+//     console.log(a * 10);
+//   },
+//   10
+// );
+// console.log(ans(10, 20, 30));
+
+// hello
+// 30
+// 2000
+//  undefined
+
+
+//  function test(fn1, fn2, a, b) {
+//   fn1(a, b, fn2);
+//   return function(x, y, z){
+//       console.log(x*y*z);
+//   }
+// }
+//  let ans =  test(function(a,b,fn2){
+//       fn2()
+//       console.log(a+b);
+// },
+// function(){
+// console.log("hello");
+// },
+// 10,
+// 20
+// )
+// ans(10,10,20)
+
+
+// let mno = "arif mohamad"
+// let bcv = mno.split(" ")
+// console.log(bcv);
+// for(let value of bcv){
+//   if(value %2 === 0 ){
+//   let m = bcv.toLowerCase()
+// }else{
+//   let l = bvc.toUpperCase()
+// }
+// console.log(m+l);
+// }
+
+
+// let arr = "My name is Arun Kumar".split(" ");
+// console.log(arr);
+// let str = "";
+// let index = 0;
+// for (let val of arr) {
+//   if (index % 2 === 0) {
+//     str = str + " " + val.toLowerCase();
+//   } else {
+//     str = str + " " + val.toUpperCase();
+//   }
+//   index++;
+// }
+// console.log(str);
+
+
+// let email = "aarifmohammad@gmail.com"
+// let len = email.length
+// let char = email.indexOf("@")
+// let sli = email.slice(char)
+// let ans=    sli.padStart(len,"*")
+// console.log(ans);

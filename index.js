@@ -309,19 +309,89 @@
 // console.log(mno.slice(11));
 
 
-let a  = "uwfu sjsguygs jdbhg"
-let s = prompt("what are search")
-let sea = a.includes(s)
+// let a  = "uwfu sjsguygs jdbhg"
+// let s = prompt("what are search")
+// let sea = a.includes(s)
 
-if(sea){
-    console.log("yes");
-    console.log(a.indexOf(s));
-    console.log(a.lastIndexOf(s));
-}else{
-    console.log("no");
-}
+// if(sea){
+//     console.log("yes");
+//     console.log(a.indexOf(s));
+//     console.log(a.lastIndexOf(s));
+// }else{
+//     console.log("no");
+// }
 
 
 
-let str = "hello my name is wecode academy";
-console.log();
+// let str = "hello my name is wecode academy";
+// console.log();
+
+
+// let str = "My name is  learn javascript"
+// let a = str.split(" ")
+// console.log(a);
+// console.log(a.length);
+
+// for(let i = 1;i<=5;i++){
+//     let m = "5"
+//     console.log(m.repeat())
+
+// }
+
+
+// let str = "aarif mohammad".split("a")
+// console.log(str);
+// for(let value of str){
+//     console.log(value);
+// }
+
+
+// let a = "my name is aarif" ------------------------------------------------------------------------------
+// let n = a.split(" ")
+// index = ""
+// aa = 0
+// for(let value of n){
+//   if(aa%2==0){
+//     index = index + " " + value.toLowerCase
+//   }else{
+//     index = index + " " + value.toUpperCase
+//   }
+//   aa++
+// }
+// console.log(index);
+
+
+// let a = "aaaaaaaaaaaa".concat("")
+// let b = "sjjkjkjnjmjj"
+// var m = a.toLowerCase()
+// var n = b.toUpperCase()
+
+// console.log(m.concat(n));
+
+
+// let a = "jsjgsjgjsgjsgjsbuibyu"
+// b = a.length
+// if(b>10){
+//     console.log("hello".concat(a));
+// }else{
+//     console.log(a.concat("world"));
+// }
+
+
+// let a = "fjsbjhhf"
+// let b= "mno"
+// c = a.length
+// d = b.length
+// if(c>d){
+//     console.log(a+b);
+// }else{
+//     console.log(b+a);
+// }
+
+// let a = "abcdefghijklmno"
+// let pq = "a"
+// if(a.includes(pq)){
+//     console.log(a.replace(pq,"aarif"));
+// }else{
+//     console.log("not mathch");
+// }
