@@ -37,15 +37,11 @@
 ```
 
 4. Ask user below questions:
-   What is your name?
-   What is your mobile number?
-   What is your account number?
-   What is your atm card number?
-   What is your aadhar number?
+   What is your name? What is your mobile number? What is your account number? What is your atm card number? What is your aadhar number?
 
-   ```
+```
    let name1 = prompt(" What is your name?")
-   let mobileNum =  prompt("What is your mobile number?")
+   let mobileNum = prompt("What is your mobile number?")
    let accountNum = prompt(" What is your account number?")
    let atmNum = prompt("What is your atm card number?")
    console.log(name1);
@@ -57,7 +53,8 @@
    console.log(accounchange1 + accounchange2.padStart(accountNum.length,"_"));
    let atmchange = atmNum.slice(0,4)
    console.log(atmchange + atmNum.padEnd(15,"\*"));
-   ```
+
+```
 
 5. Print below pattern using repeat function
 
@@ -111,11 +108,14 @@ What is the character you are guessing? A What is the index? 3
 ```
 let str = "Wecode Academy"
 let num = 1
-// mno = a
-// let que = prompt(`what character is present at particular index ${num} in a word.`)
-
-console.log(str.indexOf());
- console.log( str.includes("Wecode"))
+num--
+let que = prompt(`what character is present at particular index ${num} in a word.`)
+let char = str.charAt(num) // e
+if(char===que){
+    console.log("yes");
+}else{
+    console.log("no");
+}
 
 ```
 
@@ -135,11 +135,12 @@ for(let i = 5;i>=1;i--){
 10. Print below Series using repeat function
 
 ```
-// 1 224 3339 44412 555520
-str =    1
+multiply = 0
+
 for(let n = 1;n<=5;n++){
-str++
-sqr =( str += "")
-    document.write(sqr.repeat;)
+let str =  (`${n}`)
+multiply++
+    document.write(str.repeat(n)  +(n*multiply  ) +" ")
 }
+
 ```
