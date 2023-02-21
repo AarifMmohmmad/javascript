@@ -109,3 +109,24 @@ let str2 = "My code is wecode and wecode Jhotwara, Jaipur."
 console.log(str2.replace(/code/g,"rodd"))
 
 ```
+
+11. Find max number from array
+
+```
+
+```
+
+12. find min number from array
+13. Find total duplicate count of a number
+14. find middle element of the array
+15. find last element of the array
+16. find first element of the array
+17. find if a number is present more than 3 times in the array or not ?
+18. Find total count of odd numbers in array
+19. Find total count of even numbers in array
+20. Find second highest number from array
+21. find second lowest number from array
+
+22. Find average of the array
+
+23. Find which number is repeated most number of the times in the array, also tell number along with count

@@ -257,3 +257,7 @@ let str2 = "My code is wecode and wecode Jhotwara, Jaipur."
 // console.log(str2.replace(/code/g,"rodd"));ss
 
 
+let aa = "wecode"
+for(let value of aa){
+   console.log(value);
+}
