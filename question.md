@@ -3,9 +3,9 @@
 1. Count number of words in a Text after splitting it by any word.
 
 ```
-   for example:
-   Hello Wecode Acacdemy
-   space se split, 3 words
+let text = "aarif mohammad deshwali"
+ arr = text.split(" ")
+ console.log("test in words",arr);
 ```
 
 2. Convert odd position word to lowercase and even position word to uppercase
@@ -27,46 +27,85 @@
 4. Convert an string into 2 halfs and change the position of the other half
 
 ```
-   for example:
-   My name is wecode academy
-   wecode academy My name is
+let str  = "aarif khan"
+arr = str.slice(str.length/2)
+console.log(arr);
+arr2 = str.slice(0,str.length/2)
+console.log(arr+" "+arr2);
 ```
 
 5. Take a string and now ask for a character from the user. Now find total count of that character in the string
 
 ```
-   for example:
-   My name is wecode academy;
-   a
-   3
+let str5 = "khano me kha "
+let que = prompt("what are search a character")
+let len = (str5.length)
+sli = str5.split("")
+let count = 0
+for(let i = 0;i<=len;i++){
+    if(sli[i]===que){
+ count = count + 1
+    }
+
+}
+console.log(count);
 ```
 
 6. Reverse a string
+
+```
+let str5 = "My code is wecode and wecode Jhotwara, Jaipur."
+let len = (str5.length)
+sli = str5.split(" ")
+let count = ""
+for(let i = len;i>=0;i--){
+  if(sli[i]){
+   count = count +sli[i]
+  }
+
+}
+console.log(count);
+```
+
 7. Check string is palindrom or not
+
 8. Remove space from the string and show the output
 
 ```
-   for example:
-   My name is wecode
-   Mynameiswecode
+let str5 = "My code is wecode and wecode Jhotwara, Jaipur."
+let len = (str5.length)
+sli = str5.split(" ")
+let count = ""
+for(let i = 0;i<=len;i++){
+    if(sli[i]){
+     count = count +sli[i]
+    }
+
+}
+console.log(count);
 ```
 
 9. Check a word count in the string
 
 ```
-   for example:
-   My code is wecode and wecode Jhotwara, Jaipur.
-   code
-   3
+ let str5 = "My code is wecode and wecode Jhotwara, Jaipur."
+let len = (str5.length)
+sli = str5.split(" ")
+console.log(sli);
+let count = 0
+for(let i = 0;i<=len;i++){
+    if(sli[i]==="code"){
+ count = count + 1
+    }
+
+}
+console.log(count);
 ```
 
 10. Replace a word in string
 
-````
-    for example:
-    My code is wecode and wecode Jhotwara, Jaipur.
-    code rodd
-    My rodd is werodd and werodd Jhotwara, Jaipur
-    ```
+```
+let str2 = "My code is wecode and wecode Jhotwara, Jaipur."
+console.log(str2.replace(/code/g,"rodd"))
 
-````
+```

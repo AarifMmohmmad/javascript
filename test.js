@@ -191,17 +191,69 @@
 // let ti = new Date()
 // console.log(ti);
 
-let user = "3234"
-let i="";
+// let user = "3234"
+// let i="";
 
-for (let j =user.length; j>0; j--)
-{
-      i=i+user.charAt(j-1);
+// for (let j =user.length; j>0; j--)
+// {
+//       i=i+user.charAt(j-1);
+// }
+// if(i==user){
+//     console.log("palindrome");
+// }else{
+//     console.log("non plaindrome");
+// }
+
+// 1. Count number of words in a Text after splitting it by any word.
+// let text = "aarif mohammad deshwali"
+//  arr = text.split(" ")
+//  console.log("test in words",arr);
+
+//3  Capitalize each word of the string
+   let a = "rustam ali kahn peeh hasanpura bdiya bera "
+   let m = a.split(" ")
+//    console.log(m)
+   for(let i = 0;i<=m.length;i++){
+    if(i%2===0){
+        
+    }
+   }
+
+// 4. Convert an string into 2 halfs and change the position of the other half
+// let str  = "aarif khan"
+// arr = str.slice(str.length/2)
+// console.log(arr);
+// arr2 = str.slice(0,str.length/2)
+// console.log(arr+" "+arr2);
+
+//5. Take a string and now ask for a character from the user. Now find total count of that character in the string
+
+let str5 = "My code is wecode and wecode Jhotwara, Jaipur."
+let len = (str5.length)
+sli = str5.split(" ")
+let count = ""
+for(let i = len;i>=0;i--){
+    if(sli[i]){
+     count = count +sli[i]
+    }
+    
 }
-if(i==user){
-    console.log("palindrome");
-}else{
-    console.log("non plaindrome");
-}
+console.log(count);
+// mno = (sli)s
+// console.log(mno.slice());
+
+
+
+// 8. Remove space from the string and show the output
+let str = "mno nakf  uhfbo bjhhfo"
+let mno = str.split(" ")
+
+
+// console.log(mno);
+
+
+//10. Replace a word in string
+let str2 = "My code is wecode and wecode Jhotwara, Jaipur."
+// console.log(str2.replace(/code/g,"rodd"));ss
 
 
