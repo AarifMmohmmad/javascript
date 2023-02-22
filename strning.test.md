@@ -112,9 +112,19 @@ num--
 let que = prompt(`what character is present at particular index ${num} in a word.`)
 let char = str.charAt(num) // e
 if(char===que){
-    console.log("yes");
+    console.log("Congrulations");
 }else{
-    console.log("no");
+    console.log("Sorry");
+}
+-------------------second
+let str = "Wecode Academy"
+let num  = 1
+let que = prompt(`what character is present at particular index ${num} in a word.`)
+let check = str.startsWith("W",num-1)
+if(check){
+    console.log("Congrulations");
+}else{
+    console.log("Sorry");
 }
 
 ```
