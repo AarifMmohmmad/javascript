@@ -1,0 +1,82 @@
+<!-- // What are the truthy and falsy values in JavaScript
+// Falsy values : undefined, 0, null, ‘’, false, NaN
+// Falsy and Truthy values in conditional statements
+
+ 
+// let que = null
+// console.log(que);
+// if(0){
+//     console.log("yes");
+// }else{
+//     console.log("no");
+// } -->
+
+
+<!-- 
+for(let i = 1;i<=5;i++){
+document.write("<br>");
+for(let a = i;a<=5;a++){
+    document.write("*");
+}
+
+
+concat substring slice 
+} --> 
+
+
+<hrml>
+<body>
+    <script>
+//      let str = "aarif mohammad rustam mohammad"
+//      console.log(str.length);
+// //  ------   search string
+//      console.log(str.charAt(5)); // charAt ---- number --- strning 
+//      console.log(str.indexOf("w",6));  //// indexof ---- sting --- number  ----- wrong ---- (-1)
+//      console.log(str.lastIndexOf("w"));
+//      console.log(str.includes("m",2));    // includes ---- strning ----- true/false  
+//     console.log(str.startsWith("w",9));   /// strning ------ true /false   ---- position -- now sow 
+//     console.log(str.endsWith("w",25))    /// strning ------ true /false   ---- position -- now sow 
+
+// //// string   --- string add 
+//     console.log(str.padStart(9,"*")); // --- two input - ---- ny strning ki length -  kya jodna chahte ho ---- 6 + 10 = 16  --- 
+//     console.log(str.padEnd(9,"*"));  // 
+//     console.log(str.repeat(5));
+//     console.log(str.replace("rustam","aarif"));
+
+// ////  string ko km kre gtave 
+//      console.log(str.trim()); //  yhe space ko htane ka kam krta
+//      console.log(str.split())
+//      console.log(str.split(""));
+//      console.log(str.split("m"));   // todne ka -- kis se todna he --- jis se aaap esko tod rhw ho vo gyab ho jay 
+//      console.log(str.toUpperCase());  /// strning ko captile 
+//      console.log(str.toLowerCase());    // string  ko small leter comnverted
+//      console.log(str.substring(str.length/2,-4));   // teo input --- kha se katna he , kha tk katna he
+//      console.log(str.substring(-4,-2));   /// negtive value kun lve
+//      console.log(str.substring(str.length/2,4));
+//      console.log(str.slice(-4,-2));             /// two inpute  negtive value lve
+//     console.log(str.slice(1,2));
+// --------------------------------------------------==++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let str = "My name is sajid khan and i am a software engineer";
+let str7 = str.split(" ");
+let str2 = "";
+for (let val of str7) {
+  if (val.length <= 2) {
+    let str3 = val.toUpperCase();
+    str2 += str3 + " ";
+  } else {
+    let str3 = val
+    
+      .charAt(0)
+      .toUpperCase()
+      .concat(val.substring(1, val.length - 1));
+    let str4 = val.at(-1).toUpperCase();
+    str2 += str3 + str4 + " ";
+  }
+}
+console.log(str2);
+</script> 
+</body>
+</hrml>
+
+
+

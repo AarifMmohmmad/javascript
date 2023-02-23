@@ -59,12 +59,12 @@
 5. Print below pattern using repeat function
 
 ```
-   let space  = "&nbsp"
+let space  = "&nbsp"
    let star = "$"
-   let count  = 0
-for(let i = 5;i>=1;i--){
-    count++
-   document.write(space.repeat(i) +star.repeat(count),"<br>");
+   let count  = 1
+for(let i = 7;i>=1;i-=2){
+    count+=2
+   document.write(space.repeat(i +1) +star.repeat(count),"<br>");
 
 }
 ```
