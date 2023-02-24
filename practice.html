@@ -29,7 +29,8 @@ concat substring slice
     <script>
 //      let str = "aarif mohammad rustam mohammad"
 //      console.log(str.length);
-// //  ------   search string
+
+// //  ------   search string 
 //      console.log(str.charAt(5)); // charAt ---- number --- strning 
 //      console.log(str.indexOf("w",6));  //// indexof ---- sting --- number  ----- wrong ---- (-1)
 //      console.log(str.lastIndexOf("w"));
@@ -45,7 +46,7 @@ concat substring slice
 
 // ////  string ko km kre gtave 
 //      console.log(str.trim()); //  yhe space ko htane ka kam krta
-//      console.log(str.split())
+//      console.log(str.split())   //  
 //      console.log(str.split(""));
 //      console.log(str.split("m"));   // todne ka -- kis se todna he --- jis se aaap esko tod rhw ho vo gyab ho jay 
 //      console.log(str.toUpperCase());  /// strning ko captile 
@@ -56,27 +57,48 @@ concat substring slice
 //      console.log(str.slice(-4,-2));             /// two inpute  negtive value lve
 //     console.log(str.slice(1,2));
 // --------------------------------------------------==++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-let str = "My name is sajid khan and i am a software engineer";
-let str7 = str.split(" ");
-let str2 = "";
-for (let val of str7) {
-  if (val.length <= 2) {
-    let str3 = val.toUpperCase();
-    str2 += str3 + " ";
-  } else {
-    let str3 = val
+
+
+// let str = "My name is sajid khan and i am a software engineer";
+// let str7 = str.split(" ");
+// let str2 = "";
+// for (let val of str7) {
+//   if (val.length <= 2) {
+//     let str3 = val.toUpperCase();
+//     str2 += str3 + " ";
+//   } else {
+//     let str3 = val
     
-      .charAt(0)
-      .toUpperCase()
-      .concat(val.substring(1, val.length - 1));
-    let str4 = val.at(-1).toUpperCase();
-    str2 += str3 + str4 + " ";
-  }
-}
-console.log(str2);
+//       .charAt(0)
+//       .toUpperCase()
+//       .concat(val.substring(1, val.length - 1));
+//     let str4 = val.at(-1).toUpperCase();
+//     str2 += str3 + str4 + " ";
+//   }
+// }
+// console.log(str2);
+
+// let strs = "rustam mohammmad aarif mohammad khan"
+// let splits = strs.split(" ")
+// let que = ""
+// for(i=0;i<=splits.length;i++){
+//     let count = splits[i]
+//      que += count     
+//     .charAt(0)       // yha error de rha he 
+//     .toUpperCase()
+//     console.log(que);   
+// }
+
+//----------------------------------
+// let st = "aarif"
+// let mm = st.split(" ")
+// let mn= mm[0]
+// let que2 = mn
+//     .charAt(0)        // dono ka work same he likn work y kr rha he
+//     .toUpperCase()
+// console.log(que2);
+
+    
 </script> 
 </body>
 </hrml>
-
-
-
