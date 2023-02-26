@@ -52,7 +52,97 @@
 
 // ------------------------------------------------------------
 
-let arry = ["aarifmohammad",123456789,]
+// 112,12,12,12,1,2,12
+// let str = "123 shhj ffsj shhjg"
+// let ary = str.split(" ")
+// console.log(ary);
+// console.log(ary.length);
+// for(let i = 0 ;i< ary.length; i++){
+//     console.log( ary[i])
+// }
+
+//1.  Find max number from array
+let aa = [12,1,1,1,4,5,6,67,8,9]
+let max = aa[0]
+for(let i = 0 ;i < aa.length; i++){
+   if(max < aa[i]){   
+    max = aa[i]
+   }
+} 
+// console.log(max);
+// 2. find min number from array 
+let aa1 = [12,1,1,0,1,4,5,6,67,8,9]
+let min = aa1[0]
+for(let i = 0 ;i < aa1.length; i++){
+   if(min > aa1[i]){   
+    min = aa1[i]
+   }
+} 
+// console.log(min);
+// // 3. Find total duplicate count of a number 
+let aa2 = [12,1,1,1,1,1,1,1,4,5,1,1,1,1,1,6,3,34,4,5,6,7,8,67,8,9]
+  let num = 4
+  let count = 0
+  for(let i =0;i<=aa2.length;i++){
+    if(num===aa2[i]){
+        count++
+    }
+  }
+// console.log(count);
+
+// 4. find middle element of the array 
+let aa3 = [1,2,3,4,9,6,7,8,9,10,11]
+// console.log(aa3[aa3.length/2]);
+    if(aa3.length%2===1){
+        // console.log("even",aa3[aa3.length/2 - 0.5]);
+    }else{
+//    console.log("odd",aa3[aa3.length/2]);
+    }
+// 5. find last element of the array 
+let aa4 = [1,2,3,4,5,6,7,8,9,10,11]
+// console.log(aa4[aa4.length-1])
+// 6. find first element of the array 
+// console.log(aa4[0]);
+// 7. find if a number is present more than 3 times in the array or not ?
+// let a4 = [12,1,1,1,4,5,6,67,8,9]
+// let num = 1
+// let  counting  = 0 
+// for(let i = 0 ;i < a4.length; i++){
+//    if(num == a4[i]){   
+//     counting++
+//     // console.log("aa",counting);
+//     if(counting >=3){
+//         console.log(num);
+//     }else if(counting <3 && ){
+//     console.log("no");
+//    }}
+// }
+// 8. Find total count of odd numbers in array 
+let aa5 = [1,2,4,6,7,8,10,]
+let co = 0
+for(let i = 0 ;i<=aa5.length;i++){
+   if(aa5[i]%2===1){
+   co++
+   }
+}
+// console.log(co);
+// 9. Find total count of even numbers in array 
+let aa6 = [1,2,4,6,7,8,10,]
+let cou = 0
+for(let i = 0 ;i<=aa5.length;i++){
+   if(aa6[i]%2===0){
+   cou++
+   }
+}
+// console.log(cou);
+// 10. Find average of the array
+let arr= [10,2,3,4,5,6,7,2]     
+let counts = 0 
+for(let i =0 ; i <arr.length;i++){
+    counts = counts + arr[i]
+}
+// console.log(counts/arr.length);
+
 
         </script>
     </body>
