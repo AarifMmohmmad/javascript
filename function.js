@@ -236,3 +236,12 @@
 // let sli = email.slice(char)
 // let ans=    sli.padStart(len,"*")
 // console.log(ans);
+
+
+// function sum(a,b){
+//     for(let i=a;i<=b;i++){
+//         if(i%a===0){
+//         console.log(i);}
+//     }
+// }
+// sum(5,100)
