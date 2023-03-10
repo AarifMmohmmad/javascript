@@ -75,7 +75,69 @@ includes
 
 ---
 
-push
-pop
-shift
-unshfit
+1. push ->
+
+```
+New elements to add to the array ,
+Appends new elements to the end of an array, and returns the new length of the array.
+
+```
+
+2. pop ->
+
+```
+Removes the last element from an array and returns it.
+If the array is empty, undefined is returned and the array is not modified.
+```
+
+3. unshif ->
+
+```
+New elements to add to the array ,
+Inserts new elements at the start of an array, and returns the new length of the array.
+```
+
+4. shift
+
+```
+Removes the first element from an array and returns it.
+If the array is empty, undefined is returned and the array is not modified.
+```
+
+5. toString
+
+```
+array not modify nhi hota he
+array array rhta he
+Returns a string representation of an array.
+```
+
+6. join
+
+```
+yhe string ke liy bhi kam krta he
+
+Adds all the elements of an array into a string, separated by the specified separator string.
+```
+
+7. concat
+
+```
+yhe string ke liy bhi kam krta he
+
+Combines two or more arrays.
+This method returns a new array without modifying any existing arrays.
+```
+
+splice
+slice
+reverse
+forEach
+at
+map
+filter
+find
+findIndex
+some
+every
+flat
