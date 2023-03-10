@@ -72,3 +72,10 @@ endsWith
 search
 match
 includes
+
+---
+
+push
+pop
+shift
+unshfit

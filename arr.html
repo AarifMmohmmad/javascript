@@ -185,13 +185,13 @@ rr1= [10,2,3,4,5,6,7,2]
 // }
 
 // ques- array reverse whiout function use
-// let numarr = [1,1,-1,-21,-3,-4,4,-6,6,-7,7,-3,5,-56,5,65,6]
-// let valu = []
-// count = -1
-// for(let i = numarr.length-1 ;i>0;i--){
-//     ++count
-// valu[count] = numarr[i]
-// }
+let numarr = [1,1,-1,-21,-3,-4,4,-6,6,-7,7,-3,5,-56,5,65,6]
+let valu = []
+count = -1
+for(let i = numarr.length-1 ;i>0;i--){
+    ++count
+valu[count] = numarr[i]
+}
 // console.log(valu);
 
 // let arr = [3,4,3,5,20,5,6,26,3,3,3,20];
@@ -208,29 +208,45 @@ rr1= [10,2,3,4,5,6,7,2]
 //         console.log(arr[i],newArr[arr[i]])
 //        }
 
-// let sortingArr = [2,95,3,7,4,6,9,8];
-// let sortedArr = sortingArr.sort();
+let sortingArr = [2,95,3,7,4,6,9,8];
+let sortedArr = sortingArr.sort();
 // console.log(sortedArr);
 
 // Move all the negative elements to one side of the array
-// let nm = [2,-95,3,7,-4,6,-9,8];
-// let newarry = []
-// let countings = -1
-// for(let  i =0;i<nm.length;i++){
-//     if(nm[i] > 0){ 
-//         countings++ 
-//         newarry[countings] = nm[i]
+let nm = [2,-95,3,7,-4,6,-9,8];
+let newarry = []
+let countings = -1
+for(let  i =0;i<nm.length;i++){
+    if(nm[i] > 0){ 
+        countings++ 
+        newarry[countings] = nm[i]
        
-//     }
-// }
-// for(let  i =0;i<nm.length;i++){
-//     if(nm[i] < 0){
-//         countings++ 
-//         newarry[countings] = nm[i]  
-//     }
-// }
+    }
+}
+for(let  i =0;i<nm.length;i++){
+    if(nm[i] < 0){
+        countings++ 
+        newarry[countings] = nm[i]  
+    }
+}
 // console.log(newarry);
+// let strarry  = [3,22,2,3,3,4,4,5,5,4,3,3]
 
+// for(let i = 0;i<strarry.length;i++){
+//        let blank = []
+      
+//        if(blank[i]===strarry[i]){
+//         blank[i] = strarry[0]
+//         console.log(blank.length); 
+//       }
+// }
+// console.log(blank);
+
+let a = [1,223,4,5,,6,2,5,6,6]
+let mno = a[1]
+let nested = [mno]
+console.log(nested);
 </script>
+
 </body>
-</html>
+</html
