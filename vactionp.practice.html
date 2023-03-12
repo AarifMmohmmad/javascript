@@ -2,6 +2,9 @@
 <html>
     <body>
 <!-- <script src="vaction.practice.js"></script>-->
+<h1 style="color: rgb(20, 139, 218);">
+rjiya sultan
+</h1>
   <script>
     // const arr = [1,3,5,2,12,13,4,45,677,8,5,55,7,4]
     // console.log(arr.concat(12)); // jodne ke  liy worj krta he 
@@ -32,81 +35,124 @@
     // }
     // console.log(newarry)
 
-    // const array = [1,2,3,4,5,6,7,8,9,10]
+    const array = [1,2,3,4,5,6,7,8,9,]
     // console.log(array.push(11));  //11 new length
     // console.log(array.pop());     //11 deleted element
     // console.log(array.unshift(0)) //11 new length
     // console.log(array.shift())    // 0 delwted element
     // console.log(array.toString())  // arry converd sting
     // console.log(array.join("*"));  // string and arry spert to string with this ("...")
-    // console.log(array.concat("a"))
+    // console.log(array.concat("11"))
+    // console.log(array.slice(1,5))
+    // console.log(array.splice());
+    // console.log(array.splice)
+    // console.log(array.reverse());
+    // console.log(array.at(1));          // index leta  he element nikal kr deta 
+    // console.log(array,array.length)
+//      ans = array.map(test)
+//      function test(num){
     
+//     return 2<num            // result for each element
+//     }
+//     //  console.log(ans);
+// //--------
+//      ans2 = array.every(test2)
+//     function test2(num){
+//       return num<9      // jo array element pass the conditon
+//   }  
+//   console.log(ans2);
+
+const fla =  [[1, 2],[3, 4], [5, 6]]; 
+const ans  = fla.flatMap(test3 )
+function test3(num){
+      return num*2     // jo array element pass the conditon
+  }
+  console.log(ans);
 
 
 
 
-    // 1 ----
-   const arr1 = [1,2,3]
-   console.log(arr1[1]);
-    // 2 
-    const arr2 = [1,2,3,4,5]
-    console.log(arr2.length)
-    //3
-    const arr3 = [1,2,3,4]
-    for (let index = 0; index < arr3.length; index++) {
-      console.log(arr3[index])
+
+  //   // 1 ----
+  //  const arr1 = [1,2,3]
+  //  console.log(arr1[1]);
+  //   // 2 
+  //   const arr2 = [1,2,3,4,5]
+  //   console.log(arr2.length)
+  //   //3
+  //   const arr3 = [1,2,3,4]
+  //   for (let index = 0; index < arr3.length; index++) {
+  //     console.log(arr3[index])
       
-    }
-    //4 
-    //5
-    const arr5 = [1,2,3]
-    arr5.push(4)
-    console.log(arr5)
-    //6
-    const arr6 = [1,2,3,4]
-    arr6.splice(1,1)
-    console.log(arr6);
-    //7
-    const arr7 = [1,2,3,4,5]
-    arr7.splice(arr7.length-1)
-    console.log(arr7);
-    //8 
-    const arr8 = [1,2,3]
-    var check = arr8.includes(11)
-    console.log(check);
-    //9,10
-    //11
-    const arr111 =[1,2,3,4,5]
-    const arr112 =[6,7,8,9,10]
-    console.log(arr111.concat(arr112)); 
-    //12
-    const arr12 =[1,2,3,4,5]
-    console.log(arr12.join(","))
-    //13
-    const arr13 =[1,2,3,4]
-    console.log(arr13.reverse());
-    //14
-    const arr14 =[1,2,3,4,5]
-    checkindex = 1 
-    for(let i = 0;i<arr14.length;i++){
-   if(checkindex ===arr14[i]){
-    console.log(i);
-   }
-    }
-    //15
-    //16
-    //17
-    const arr17 =[1,2,3,4]
-    var i = 0
-    let count = 0
-    while (i<arr17.length) {
-    count+=arr17[i]
-      i++
-    }
-    console.log(count);
-    //18
-    //19
-    //20
+  //   }
+  //   //4 
+  //   //5
+  //   const arr5 = [1,2,3]
+  //   arr5.push(4)
+  //   console.log(arr5)
+  //   //6
+  //   const arr6 = [1,2,3,4]
+  //   arr6.splice(1,1)
+  //   console.log(arr6);
+  //   //7
+  //   const arr7 = [1,2,3,4,5]
+  //   arr7.splice(arr7.length-1)
+  //   console.log(arr7);
+  //   //8 
+  //   const arr8 = [1,2,3]
+  //   var check = arr8.includes(11)
+  //   console.log(check);
+  //   //9
+
+  //10
+
+  //   //11
+  //   const arr111 =[1,2,3,4,5]
+  //   const arr112 =[6,7,8,9,10]
+  //   console.log(arr111.concat(arr112)); 
+  //   //12
+  //   const arr12 =[1,2,3,4,5]
+  //   console.log(arr12.join(","))
+  //   //13
+  //   const arr13 =[1,2,3,4]
+  //   console.log(arr13.reverse());
+  //   //14
+  //   const arr14 =[1,2,3,4,5]
+  //   checkindex = 1 
+  //   for(let i = 0;i<arr14.length;i++){
+  //  if(checkindex ===arr14[i]){
+  //   console.log(i);
+  //  }
+  //   }
+  //   //15
+//   const arr15 = [1,2,3,4,5,6]
+//   slic = arr15.slice(0,3)
+//  const newarr2 = slic
+//   console.log(newarr2);
+  //   //16
+
+
+  //   //17
+  //   const arr17 =[1,2,3,4]
+  //   var i = 0
+  //   let count = 0
+  //   while (i<arr17.length) {
+  //   count+=arr17[i]
+  //     i++
+  //   }
+  //   console.log(count);
+  //   //18
+
+
+  //   //19
+  // const arr19 =[1,2,3]
+  // console.log(arr19.join("-"));
+  //  //20
+  const arr201 =[1,2,3,4]
+  const arr202 =[1,2,3,4,5]
+  // const newarr = []
+  // console.log(newarr.concat(arr201,arr202))
+
       </script>
       </body>
-      </html>
+    
