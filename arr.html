@@ -242,10 +242,19 @@ for(let  i =0;i<nm.length;i++){
 // }
 // console.log(blank);
 
-let a = [1,223,4,5,,6,2,5,6,6]
-let mno = a[1]
-let nested = [mno]
-console.log(nested);
+// let a = [1,223,4,5,,6,2,5,6,6]
+// let mno = a[1]
+// let nested = [mno]
+// console.log(nested);
+let arr = [1, 113, 111, 2, 11, 22, 3, 21, 33, 1111111];
+function test(val1, val2) {
+  return val2 - val1;
+}
+function test2(val1, val2) {
+  return val1 - val2;
+}
+console.log(arr.sort(test));
+console.log(arr.sort(test2));
 </script>
 
 </body>

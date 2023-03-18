@@ -75,6 +75,8 @@ includes
 
 ---
 
+###### array["position 0 " [5 arry index 0],"position 1 "7,9,10]
+
 1. push ->
 
 ```
@@ -111,7 +113,7 @@ If the array is empty, undefined is returned and the array is not modified.
 5. toString
 
 ```
-array not modify nhi hota he
+array  modify nhi hota he
 
 array array rhta he
 Returns a string representation of an array.
@@ -258,7 +260,7 @@ Otherwise it returns undefined.
 ```
 check index
  method executes a function for each array element.
- method returns the index (position) of the first element that passes a test.
+ method rueturns the index (position) of the first element that passes a test.
  method returns -1 if no match is found.
  method does not execute the function for empty array elements.
  method does not change the original array.
@@ -310,5 +312,12 @@ The flatMap() method first maps all elements of an Array and then creates a new 
 21. reduce
 
 ```
+
+```
+
+22. sort
+
+```
+yhe array ko alfabtical sort krta he
 
 ```
