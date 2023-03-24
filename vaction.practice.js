@@ -54,30 +54,30 @@
 // console.log(abc);
 // console.log(ab);
 
-let str = "My name is Sajid Khan and I am a software Engineer";
-let arr = str.split(" ");
-let str2 = "" ;
-for (let i = 0; i < arr.length; i++) {
-  let word = arr[i];
-  let firstChar = word.charAt(0);
-  let lastChar;
-  let remainingChars;
-  if (word.length > 1) {
-    lastChar = word.charAt(word.length - 1);
-  }
-  if (word.length > 2) {
-    remainingChars = word.slice(1, word.length - 1);
-  }
+// let str = "My name is Sajid Khan and I am a software Engineer";
+// let arr = str.split(" ");
+// let str2 = "" ;
+// for (let i = 0; i < arr.length; i++) {
+//   let word = arr[i];
+//   let firstChar = word.charAt(0);
+//   let lastChar;
+//   let remainingChars;
+//   if (word.length > 1) {
+//     lastChar = word.charAt(word.length - 1);
+//   }
+//   if (word.length > 2) {
+//     remainingChars = word.slice(1, word.length - 1);
+//   }
 
-  let finalWord = "";
-  finalWord = finalWord + firstChar.toUpperCase();
-  if (remainingChars) {
-    finalWord = finalWord + remainingChars;
-  }
-  if (lastChar) {
-    finalWord = finalWord + lastChar.toUpperCase();
-  }
+//   let finalWord = "";
+//   finalWord = finalWord + firstChar.toUpperCase();
+//   if (remainingChars) {
+//     finalWord = finalWord + remainingChars;
+//   }
+//   if (lastChar) {
+//     finalWord = finalWord + lastChar.toUpperCase();
+//   }
 
-  str2 = str2 + finalWord + " ";
-}
-console.log(str2);
+//   str2 = str2 + finalWord + " ";
+// }
+// console.log(str2);

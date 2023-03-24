@@ -196,24 +196,31 @@ let fristobj = {
 // console.log(fristobj["name"]);
 // // for(let i = 0 ;i<)
 
-let mno = [11,2,3,4,5,6,1,1,1,2,34,] 
-let str = new Set(mno)
-console.log(str)
-str.add(99)
-str.add(100)
-str.delete(2)
-str.delete(3)
+// let mno = [11,2,3,4,5,6,1,1,1,2,34,] 
+// let str = new Set(mno)
+// console.log(str)
+// str.add(99)
+// str.add(100)
+// str.delete(2)
+// str.delete(3)
+// console.log(str);
+// for(let value of str){
+//   // console.log(value);
+// }
+// str.forEach(test)
+// function test(num) {
+//   console.log(num);
+// }
+
+let map = new Map();
+map.set("js", 800)
+map.set("designing", 400);
+map.set("java", 700);
+//Map to Array
+map.set("nodejs", 500);
+let str = ([...map])
 console.log(str);
-for(let value of str){
-  // console.log(value);
-}
-str.forEach(test)
-function test(num) {
-  console.log(num);
-}
-
-
-
+console.log(str.flat(1));
 </script>
 </body>
 
