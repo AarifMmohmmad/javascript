@@ -50,10 +50,8 @@ console.log(max);
 
 ```
 let evenarray = [1,2,34,5,6,7,89,0]
-ans = evenarray.filter(test)
-function test(num){
-    return num%2===0
-}
+let ans = evenarray.filter(test => test % 2 === 0);
+console.log(ans)
 ```
 
 7.  Write a function that takes an array of strings and returns a new array that only contains strings with more than 5 characters.
