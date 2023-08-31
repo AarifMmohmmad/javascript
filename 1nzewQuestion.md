@@ -10,10 +10,8 @@ console.log(fruits.includes("orange"));
 ```
      let sumall = [1,2,3,4,5,6,7,8,9,10,11]
      let sum = 0
-     for (let index = 0; index < sumall.length; index++) {
-         if(sumall[index] %2===0){
-            sum += sumall[index]
-         }
+     for (let num of sumall) {
+        num % 2 === 0 ? sum += num : console.log(num, "value is old")
      }
      console.log(sum);
 
